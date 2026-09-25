@@ -1,11 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Labs Landing Page</title>
-</head>
-<body>
-    <h1>Labs Landing Page</h1>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Small experiments and educational projects by Kevin." />
+    <meta name="theme-color" content="#09090b" />
+    <meta property="og:title" content="Labs | codebykevin.dev" />
+    <meta
+      property="og:description"
+      content="Small experiments and educational projects by Kevin." />
+    <meta property="og:image"
+      content="https://labs.codebykevin.dev/og-image.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://labs.codebykevin.dev/" />
+    <title>Labs | codebykevin.dev</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="site-header">
+        <a class="brand" href="https://codebykevin.dev/">codebykevin.dev</a>
+        <span class="eyebrow">LABS</span>
+      </header>
+
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Experiments &amp; projects</p>
+        <h1 id="page-title">A space for things I’m building and learning.</h1>
+        <p class="intro">
+          Small tools, interactive lessons and technical experiments focused
+          on cybersecurity and web development.
+        </p>
+      </section>
+
+      <section class="labs" aria-labelledby="labs-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Directory</p>
+          <h2 id="labs-heading">Current labs</h2>
+        </div>
+
+        <div class="lab-list">
+          <a class="lab-card" href="/owasp-visual/">
+            <div class="lab-card-top">
+              <span class="status">Active</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>OWASP Top 10 Visualised</h3>
+            <p>
+              Interactive walkthroughs for understanding common web
+              vulnerabilities.
+            </p>
+          </a>
+
+          <a class="lab-card" href="/owasp-api-visual/">
+            <div class="lab-card-top">
+              <span class="status">Active</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>OWASP API Security Top 10</h3>
+            <p>
+              Visual explanations of the vulnerabilities that affect modern
+              APIs.
+            </p>
+          </a>
+
+          <a class="lab-card" href="/owasp-llm-visual/">
+            <div class="lab-card-top">
+              <span class="status">Active</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>OWASP Top 10 for LLM Applications</h3>
+            <p>
+              A practical guide to understanding risks in LLM-powered
+              applications.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        <a href="https://codebykevin.dev/">Main site</a>
+        <a href="https://github.com/kevinweejh">GitHub</a>
+      </footer>
+    </main>
+  </body>
 </html>
